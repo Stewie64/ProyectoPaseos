@@ -1,22 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Lista_Paseos">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    <in.goodiebag.carouselpicker.CarouselPicker
+    android:id="@+id/carouselWalks"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    app:items_visible="three"
+    />
 
-        <ListView
-            android:id="@+id/lv_datos"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="8dp" />
-    </LinearLayout>
+    <in.goodiebag.carouselpicker.CarouselPicker
+    android:id="@+id/carouselBeachTrips"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    app:items_visible="three"
+    />
 
-</android.support.constraint.ConstraintLayout>
+    <in.goodiebag.carouselpicker.CarouselPicker
+    android:id="@+id/carouselMountainTrips"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    app:items_visible="three"
+    />
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+    android:id="@+id/carouselRecreationalEvents"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    app:items_visible="three"
+    />
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+    android:id="@+id/carouselMotorcycleTours"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    app:items_visible="three"
+    />
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+    android:id="@+id/carouselCarTours"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    app:items_visible="three"
+    />
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+    android:id="@+id/carouselSocialEvents"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content"
+    app:items_visible="three"
+    />
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/carouselConcerts"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        app:items_visible="three"
+        />
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/carouselCharityEvents"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        app:items_visible="three"
+        />
+
+</LinearLayout>
